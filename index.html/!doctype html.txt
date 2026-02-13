@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Energenis | Energy, Love, Alignment</title>
+  <meta name="description" content="Spiritual guidance, energy alignment, and grounded transformation through love and authenticity." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="bg-orb orb-1"></div>
+  <div class="bg-orb orb-2"></div>
+
+  <header class="wrap header">
+    <a class="brand" href="#top" aria-label="Home">
+      <span class="brand-mark">✦</span>
+      <span class="brand-text">Energenis</span>
+    </a>
+
+    <nav class="nav">
+      <a href="#offerings">Offerings</a>
+      <a href="#about">About</a>
+      <a href="#testimonials">Words</a>
+      <a href="#contact" class="btn btn-small">Connect</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="wrap hero">
+      <div class="hero-card">
+        <p class="kicker">Energy • Authenticity • Self-Worth</p>
+        <h1>
+          Come back to your center.
+          <span class="glow">Expand with intention.</span>
+        </h1>
+        <p class="sub">
+          Spiritual alignment work that’s mystical, grounded, and actually usable in real life.
+          Breath, movement, and energetic clarity so you can feel like yourself again.
+        </p>
+
+        <div class="cta-row">
+          <a class="btn" href="#offerings">Explore Offerings</a>
+          <a class="btn btn-ghost" href="#contact">Book a Session</a>
+        </div>
+
+        <div class="sigils">
+          <span>✧ aura</span>
+          <span>✧ grounding</span>
+          <span>✧ balance</span>
+          <span>✧ clarity</span>
+        </div>
+      </div>
+
+      <aside class="hero-aside">
+        <div class="glass panel">
+          <h3>Today’s Intention</h3>
+          <p class="muted">Tap the card to draw a message.</p>
+          <button id="drawBtn" class="card" type="button" aria-label="Draw an intention message">
+            <div class="card-title">Draw a Message</div>
+            <div id="cardText" class="card-text">“I return to my body. I return to my truth.”</div>
+            <div class="card-footer">tap to reshuffle</div>
+          </button>
+        </div>
+
+        <div class="glass panel">
+          <h3>Mini Grounding (60s)</h3>
+          <ol class="steps">
+            <li>Unclench your jaw.</li>
+            <li>Drop your shoulders.</li>
+            <li>Inhale 4, hold 2, exhale 6.</li>
+            <li>Feel your feet: heavy, safe, here.</li>
+          </ol>
+        </div>
+      </aside>
+    </section>
+
+    <section id="offerings" class="wrap section">
+      <h2>Offerings</h2>
+      <p class="muted">Simple, powerful sessions you can stack like bricks of peace.</p>
+
+      <div class="grid">
+        <article class="glass tile">
+          <h3>Sacred Feminine & Masculine Balance</h3>
+          <p>Bring your inner polarity into cooperation so your life stops feeling like a tug-of-war.</p>
+          <ul>
+            <li>Energetic mapping</li>
+            <li>Reintegration practice</li>
+            <li>Aftercare plan</li>
+          </ul>
+        </article>
+
+        <article class="glass tile">
+          <h3>Grounding & Root Activation</h3>
+          <p>For when your mind is in twelve places and your body is like “hello???”</p>
+          <ul>
+            <li>Nervous system downshift</li>
+            <li>Root stabilization</li>
+            <li>Daily grounding ritual</li>
+          </ul>
+        </article>
+
+        <article class="glass tile">
+          <h3>Aura Cleanse</h3>
+          <p>Clear energetic static, emotional residue, and “why am I feeling that?” vibes.</p>
+          <ul>
+            <li>Field sweep</li>
+            <li>Boundary reset</li>
+            <li>Shielding method</li>
+          </ul>
+        </article>
+
+        <article class="glass tile">
+          <h3>Personalized Alignment</h3>
+          <p>Custom session tuned to what you’re moving through. Practical spirituality, not fluff.</p>
+          <ul>
+            <li>Intuitive guidance</li>
+            <li>Energy recalibration</li>
+            <li>Integration steps</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="wrap section">
+      <div class="split">
+        <div class="glass panel">
+          <h2>About</h2>
+          <p>
+            Energenis is a space for self-love, self-worth, and energetic empowerment.
+            We work with authenticity, movement, and grounded spiritual practices to help you feel aligned and capable.
+          </p>
+          <p class="muted">
+            This site is a starter temple. You can swap text, add booking links, embed TikTok, whatever you want.
+          </p>
+        </div>
+
+        <div class="glass panel">
+          <h3>Values</h3>
+          <div class="chips">
+            <span class="chip">Authenticity</span>
+            <span class="chip">Compassion</span>
+            <span class="chip">Sovereignty</span>
+            <span class="chip">Integration</span>
+            <span class="chip">Joy</span>
+          </div>
+
+          <div class="divider"></div>
+
+          <h3>Quick Links</h3>
+          <ul class="links">
+            <li><a href="#contact">Contact / Booking</a></li>
+            <li><a href="#offerings">Session Menu</a></li>
+            <li><a href="#testimonials">Client Words</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="wrap section">
+      <h2>Client Words</h2>
+      <p class="muted">Placeholders for now. Replace these with real testimonials when you’ve got them.</p>
+
+      <div class="grid grid-3">
+        <figure class="glass quote">
+          <blockquote>“I felt calmer in minutes. Like my whole field exhaled.”</blockquote>
+          <figcaption>– A.</figcaption>
+        </figure>
+
+        <figure class="glass quote">
+          <blockquote>“Grounded, clear, and not woo-woo in a weird way. Perfect.”</blockquote>
+          <figcaption>– J.</figcaption>
+        </figure>
+
+        <figure class="glass quote">
+          <blockquote>“It was like getting my power back without fighting for it.”</blockquote>
+          <figcaption>– S.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="contact" class="wrap section">
+      <div class="glass panel contact">
+        <h2>Connect</h2>
+        <p class="muted">
+          Replace the email and socials below with yours. If you want a real form that sends messages,
+          I’ll set it up for GitHub Pages too.
+        </p>
+
+        <div class="contact-row">
+          <div>
+            <div class="label">Email</div>
+            <a href="mailto:yourname@email.com">yourname@email.com</a>
+          </div>
+          <div>
+            <div class="label">TikTok</div>
+            <a href="https://tiktok.com" target="_blank" rel="noreferrer">Energenis</a>
+          </div>
+          <div>
+            <div class="label">Instagram</div>
+            <a href="https://instagram.com" target="_blank" rel="noreferrer">@yourhandle</a>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <p class="fine">
+          © <span id="year"></span> Energenis. Built with intention and a little bit of starlight.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <span class="muted">Made for GitHub Pages.</span>
+    <a class="muted" href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

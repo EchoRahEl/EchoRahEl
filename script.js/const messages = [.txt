@@ -1,0 +1,22 @@
+const messages = [
+  "I return to my body. I return to my truth.",
+  "My boundaries are kind, clear, and strong.",
+  "I trust the quiet knowing underneath the noise.",
+  "I release what isn't mine to carry.",
+  "I choose the next aligned step, not the perfect step.",
+  "My energy is sovereign. My heart stays open.",
+  "I ground into the present and let life meet me here.",
+  "I am allowed to be powerful and gentle at the same time."
+];
+
+const btn = document.getElementById("drawBtn");
+const cardText = document.getElementById("cardText");
+const yearEl = document.getElementById("year");
+
+function draw() {
+  const pick = messages[Math.floor(Math.random() * messages.length)];
+  cardText.textContent = `“${pick}”`;
+}
+
+btn?.addEventListener("click", draw);
+yearEl.textContent = new Date().getFullYear();
